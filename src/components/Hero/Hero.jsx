@@ -1,4 +1,5 @@
 import heroImage from './tiff.png';
+import './Hero.css'
 
 function Hero() {
     return (

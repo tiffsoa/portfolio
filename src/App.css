@@ -1,1 +1,33 @@
+:root {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+    --dark: #3C3C3C;
+    --background: #F9F8F4;
+    --pink: #D4A5A5;
+    --green: #CDDFC4;
+    --grey: #7B7B7B;
+  
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--dark);
+  
+  }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13rem;
+  }
+
+  

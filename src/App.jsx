@@ -1,8 +1,8 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
-import About from './components/About'
+import About from './components/About/About'
 import Contact from './components/Contact'
 import './App.css'
 

@@ -1,16 +1,18 @@
 import './Card.css'
 
-function Card() {
+function Card({job, location, description}) {
     return (
         <div className='card'>
             <div className='deco'>
 
             </div>
             <div className='job'>
-                <h2></h2>
+                <h2>{job}</h2>
+                <h3>{location}</h3>
+                <h4>{description}</h4>
             </div>
         </div>
     );
 }
 
-export default Experience;
+export default Card;

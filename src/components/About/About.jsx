@@ -26,6 +26,7 @@ function About() {
                     <h3>Web Development, UI/UX Design, Machine Learning</h3>
                 </div>
             </div>
+            <hr></hr>
         </section>
     );
 }

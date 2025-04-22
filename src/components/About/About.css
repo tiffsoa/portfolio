@@ -1,6 +1,7 @@
 .title {
     font-size: 4.5rem;
     font-weight: 900;
+    color: var(--dark);
 }
 
 .top {
@@ -25,10 +26,12 @@
     margin-top: 4rem;
     margin-left: 8rem;
     font-size: 1.2rem;
+    margin-bottom: 8rem;
 }
 
 .bottom h3 {
+    color: var(--dark);
     margin-top: -1.2rem;
     font-weight: 400;
-    font-size: 1.199rem;
+    font-size: 1.3rem;
 }

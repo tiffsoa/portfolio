@@ -1,41 +1,46 @@
-
 .deco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .star {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--pink);
+  margin-bottom: 2.5rem;
+}
+
+#loc {
     color: var(--pink);
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .line {
-    transform: rotate(90deg);
-    width: 5rem;
+  transform: rotate(90deg);
+  width: 5rem;
 }
 .card {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 15rem;
+  margin-bottom: 2rem;
 }
 
 .job {
-    margin-left: 2rem;
-    margin-top: -1.8rem;
+  margin-left: 2rem;
+  margin-top: -1.8rem;
 }
 
 .job h2 {
-    margin-bottom: 1.5rem;
-    color: var(--dark);
+  margin-bottom: 0.8rem;
+  color: var(--dark);
 }
 .job h3 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
-.location {
-    color: var(--grey);
-    margin-bottom: 1.5rem;
+#exp-descri {
+    font-weight: 400;
 }

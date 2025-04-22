@@ -1,3 +1,5 @@
+import heroImage from './tiff.png';
+
 function Hero() {
     return (
         <section id="hero" className="hero-section">
@@ -8,10 +10,10 @@ function Hero() {
                     <a href="#">resume</a>
                 </div>
                 <div className="hero-right">
-
+                    <img src={heroImage} alt="a picture of tiffany" className="hero-image"/>
                 </div>
-
             </div>
+            <hr/>
         </section>
     );
 }

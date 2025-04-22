@@ -9,13 +9,13 @@
   
   .hero-left h3 {
     font-weight: 340;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: -4rem;
     margin-bottom: 4rem;
   }
   
   .hero-left a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-decoration: underline;
     text-decoration-color: var(--pink);
   }
@@ -29,7 +29,7 @@
   }
   
   .hero-right {
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
   
   .hero-image {

@@ -9,7 +9,7 @@ function Card({ job, location, description }) {
         <hr className="line"></hr>
       </div>
       <div className="job">
-        <h2>{job}</h2>
+        <h2 id="job-title">{job}</h2>
         <h3 className="location" id="loc">
           {location}
         </h3>

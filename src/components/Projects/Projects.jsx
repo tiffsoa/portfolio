@@ -11,19 +11,24 @@ function Projects() {
             <div className="projects-bottom">
                 <Projectcard 
                 name='Service Manager Website'
-                tech={['HTML', 'CSS', 'JavaScript', 'Express.js']}/>
+                tech={['HTML', 'CSS', 'JavaScript', 'Express.js']}
+                github='https://github.com/v3r1510/Service_Manager_Website'/>
                 <Projectcard 
                 name='Personal Website'
-                tech={['React']}/>
+                tech={['React']}
+                github='https://github.com/tiffsoa/portfolio'/>
                 <Projectcard 
                 name='Brain Buster'
-                tech={['Python']}/>
+                tech={['Python']}
+                github='https://github.com/tiffsoa/game_python_348'/>
                 <Projectcard 
                 name='Password Generator'
-                tech={['Python']}/>
+                tech={['Python']}
+                github='https://github.com/tiffsoa/password-generator'/>
                 <Projectcard 
                 name='Peer Assessment System'
-                tech={['HTML', 'CSS', 'Django']}/>
+                tech={['HTML', 'CSS', 'Django']}
+                github='https://github.com/tiffsoa/-Code_Monkies-SOEN341_Project_F24-'/>
             </div>
             <hr id="projects-line"></hr>
         </section>

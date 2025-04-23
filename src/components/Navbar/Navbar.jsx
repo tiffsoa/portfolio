@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <a id="logo" href="#hero" className="logo">Tiffany Soa A.</a>
+                <a id="logo" href="#" className="logo">Tiffany Soa A.</a>
                 <a href="#about">about</a>
                 <a href="#experience">experience</a>
                 <a href="#projects">projects</a>

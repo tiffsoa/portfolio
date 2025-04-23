@@ -6,6 +6,21 @@
     
 }
 
+.project-link {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.project-link:visited {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: var(--pink);
+    text-decoration: none;
+}
+
 .project-card {
     display: flex;
     flex-direction: column;

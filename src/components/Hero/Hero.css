@@ -14,17 +14,25 @@
     margin-bottom: 4rem;
   }
   
-  .hero-left a {
+  .hero-resume a {
     font-size: 1.6rem;
     text-decoration: underline;
     text-decoration-color: var(--pink);
+    color: var(--dark);
+  }
+
+  .hero-arrow {
+    width: 20px;
+    height: auto;
+    margin-left: 0.2rem;
+    margin-bottom: -0.3rem;
   }
   
-  .hero-left a:visited {
+  .hero-resume a:visited {
     color: var(--dark);
   }
   
-  .hero-left a:hover {
+  .hero-resume a:hover {
     color: var(--pink);
   }
   

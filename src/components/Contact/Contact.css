@@ -52,12 +52,12 @@
     color: var(--dark);
 }
 
-.channel > a:hover {
-    color: var(--pink);
-}
-
 .channel > a:visited {
     color: var(--dark);
+}
+
+.channel > a:hover {
+    color: var(--pink);
 }
 
 .channel {

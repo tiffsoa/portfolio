@@ -2,6 +2,13 @@
     font-weight: 900;
   }
   
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
+    padding: 0.2rem;
+  }
+
   .navbar-left a {
     color: var(--dark);
     margin-left: 1.5rem;

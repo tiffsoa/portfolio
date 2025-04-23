@@ -30,4 +30,8 @@
     margin-top: 14rem;
   }
 
-
+@media only screen and (max-width: 600px) {
+  #root {
+    width: fit-content;
+  }
+}

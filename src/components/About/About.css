@@ -35,3 +35,14 @@
     font-weight: 400;
     font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 600px) {
+    section.about-section .descri {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    section.about-section .bottom {
+        margin-left: 3.5rem;
+    }
+}

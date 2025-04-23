@@ -50,3 +50,15 @@
   .hero-section hr {
     margin-top: -0.3rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .hero-left {
+      margin-left: 3.5rem;
+      margin-top: -7rem;
+    }
+
+    .hero-right {
+      margin-left: -2rem;
+      margin-right: 2rem;
+    }
+  }

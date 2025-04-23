@@ -30,3 +30,16 @@
 #projects-line {
     margin-top: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects-top > h3 {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    .projects-bottom {
+        margin-left: 7rem;
+        margin-right: 2rem;
+        margin-bottom: 7rem;
+    }
+}

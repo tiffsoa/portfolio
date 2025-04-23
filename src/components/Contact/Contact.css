@@ -78,3 +78,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-top > h3 {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    .contact-top {
+        margin-bottom: 3rem;
+    }
+
+    .pixel-contact-img {
+        width: 275px;
+        height: auto;
+    }
+
+    
+}

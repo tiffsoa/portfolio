@@ -1,4 +1,4 @@
-.hero-left {
+  .hero-left {
     margin-left: 8rem;
   }
   
@@ -61,4 +61,36 @@
       margin-left: -2rem;
       margin-right: 2rem;
     }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .hero-left > h1 {
+      font-size: 9rem;
+      font-weight: 450;
+    }
+
+    .hero-left h3 {
+      font-size: 2.5rem;
+      margin-top: -7rem;
+      margin-bottom: 5rem;
+    }
+
+    .hero-resume a {
+      font-size: 2.5rem;
+    }
+
+    .hero-arrow {
+      width: 25px;
+      height: auto;
+      margin-left: 0.2rem;
+      margin-bottom: -0.3rem;
+    }
+
+    .hero-image {
+      margin-top: -7rem;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+
   }

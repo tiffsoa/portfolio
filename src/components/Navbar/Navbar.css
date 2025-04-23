@@ -1,4 +1,4 @@
-#logo {
+  #logo {
     font-weight: 900;
   }
   
@@ -22,5 +22,16 @@
     text-decoration: underline;
     text-decoration-color: var(--pink);
   }
+
+  @media only screen and (min-width: 1500px) {
+    .navbar-left {
+      font-size: 2rem;
+    }
+
+    .navbar-right {
+      font-size: 2rem;
+    }
+  }
+
 
   

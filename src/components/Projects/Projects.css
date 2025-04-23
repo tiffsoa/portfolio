@@ -43,3 +43,19 @@
         margin-bottom: 7rem;
     }
 }
+
+@media only screen and (min-width: 1500px) {
+    .projects-top > h1 {
+        font-size: 7rem;
+        margin-bottom: 4rem;
+    }
+
+    .projects-top > h3 {
+        font-size: 2rem;
+    }
+
+    .projects-bottom {
+        margin-top: 2rem;
+        margin-bottom: 13rem;
+    }
+}

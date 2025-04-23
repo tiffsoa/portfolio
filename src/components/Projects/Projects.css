@@ -1,15 +1,15 @@
-.top {
+.projects-top {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.top h1 {
+.projects-top > h1 {
     font-size: 4.5rem;
     font-weight: 900;
 }
 
-.top > h3 {
+.projects-top > h3 {
     margin-top: -3.6rem;
     margin-left: 15rem;
     margin-right: 15rem;
@@ -18,7 +18,15 @@
     font-weight: 400;
 }
 
-.bottom-exp {
-    margin-top: 5rem;
-    margin-bottom: 6rem;
+.projects-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-top: -1.7rem;
+
+}
+
+#projects-line {
+    margin-top: 2rem;
 }

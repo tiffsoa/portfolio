@@ -1,0 +1,38 @@
+#folder {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    stroke-width: 0.25;
+    
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border: 1px solid var(--dark);
+    padding: 1rem;
+    padding-top: 2.5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.tech-project {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-stack {
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+    border: 1px solid var(--pink);
+    border-radius: 1rem;
+    background-color: var(--pink);
+
+}
+
+#project-name {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}

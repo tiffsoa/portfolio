@@ -37,6 +37,22 @@
     font-size: 1.3rem;
 }
 
+ /* Hidden by default */
+ .hidden {
+    opacity: 0;
+    transition: all 2s;
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  
+  @media(prefers-reduced-motion) {
+    .hidden {
+      transition: none;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     section.about-section .descri {
         margin-left: 3.5rem;

@@ -23,6 +23,36 @@
     margin-bottom: 6rem;
 }
 
+ /* Hidden by default */
+ .hidden {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-5%);
+  }
+  
+  .show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .bottom-exp:nth-child(2) {
+    transition-delay: 200ms;
+  }
+  
+  .bottom-exp:nth-child(3) {
+    transition-delay: 400ms;
+  }
+  
+  .bottom-exp:nth-child(4) {
+    transition-delay: 600ms;
+  }
+
+  @media(prefers-reduced-motion) {
+    .hidden {
+      transition: none;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     .top > h3 {
         margin-left: 3.5rem;

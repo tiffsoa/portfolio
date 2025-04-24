@@ -1,30 +1,11 @@
 import "./About.css";
-import { useEffect, useRef } from "react";
 
 function About() {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        } else {
-          entry.target.classList.remove("show");
-        }
-      });
-    });
-
-    const hiddenEls = sectionRef.current.querySelectorAll(".hidden");
-    hiddenEls.forEach((el) => observer.observe(el));
-
-    return () => observer.disconnect(); // cleanup
-  }, []);
   return (
-    <section id="about" className="about-section" ref={sectionRef}>
+    <section id="about" className="about-section">
       <div className="top">
-        <h1 className="title hidden">about me</h1>
-        <h3 className="descri hidden">
+        <h1 className="title">about me</h1>
+        <h3 className="descri">
           I'm a second year software engineering student at Concordia
           University, with a passion for music and science. I enjoy learning and
           discovering new experiences. I also love designing posters and

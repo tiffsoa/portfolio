@@ -9,6 +9,9 @@
 .project-link {
     color: var(--dark);
     text-decoration: none;
+    padding: 1rem;
+    border: 1px solid var(--dark);
+    transition: 0.4s ease-in-out;
 }
 
 .project-link:visited {
@@ -17,17 +20,15 @@
 }
 
 .project-link:hover {
-    color: var(--pink);
+    transform: scale(1.07);
     text-decoration: none;
+    
 }
 
 .project-card {
     display: flex;
     flex-direction: column;
     width: 20rem;
-    border: 1px solid var(--dark);
-    padding: 1rem;
-    padding-top: 2.5rem;
     margin-right: 5rem;
     margin-top: 5rem;
 }
@@ -91,8 +92,10 @@
         margin-right: 5rem;
         width: 30rem;
         height: 15rem;
-        margin-bottom: -1rem;
+        margin-bottom: 2rem;
     }
+
+    
 
 
 }

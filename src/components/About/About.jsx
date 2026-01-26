@@ -6,7 +6,7 @@ function About() {
       <div className="top">
         <h1 className="title">about me</h1>
         <h3 className="descri">
-          I'm a second year software engineering student at Concordia
+          I'm a third year software engineering student at Concordia
           University, with a passion for music and science. I enjoy learning and
           discovering new experiences. I also love designing posters and
           websites in my free time.
@@ -23,11 +23,11 @@ function About() {
         </div>
         <div className="about-container two">
           <h2>skills</h2>
-          <h3>Java, Python, HTML/CSS, JavaScript</h3>
+          <h3>Power BI, Power Query, Java, Python, HTML/CSS, JavaScript</h3>
         </div>
         <div className="about-container three">
           <h2>interests</h2>
-          <h3>Web Development, UI/UX Design, Machine Learning</h3>
+          <h3>Software Development, UI/UX Design, Data Analysis</h3>
         </div>
       </div>
       <hr></hr>

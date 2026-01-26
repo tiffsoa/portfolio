@@ -25,9 +25,18 @@ function Experience() {
     <section id="experience" className="experience-section" ref={sectionRef}>
       <div className="top">
         <h1>experience</h1>
-        <h3>my professional journey and academic milestones</h3>
+        <h3>my professional journey</h3>
       </div>
       <div className="bottom-exp">
+        <span className="hidden">
+          <Card
+            job="Referential Data Analyst"
+            location="BNP Paribas CIB (Sept 2025 - Dec 2025)"
+            description="Coursework in Data Structure, Algorithms, 
+                Web Development, Software Process and Practices, Software Requirements and Documentation."
+          />
+        </span>
+
         <span className="hidden">
           <Card
             job="Junior Functional Consultant"
@@ -38,32 +47,7 @@ function Experience() {
           />
         </span>
 
-        <span className="hidden">
-          <Card
-            job="BEng in Software Engineering"
-            location="Concordia University (Jan 2024 - May 2028)"
-            description="Coursework in Data Structure, Algorithms, 
-                Web Development, Software Process and Practices, Operating Systems."
-          />
-        </span>
-
-        <span className="hidden">
-          <Card
-            job="Cashier"
-            location="Bulkbarn (Oct 2023 - Apr 2024)"
-            description="Provided customer service, 
-                handled transactions and maintained a clean, organized retail environment. "
-          />
-        </span>
-
-        <span className="hidden">
-          <Card
-            job="International Baccalaureate"
-            location="Ecole Secondaire Mosaïque (Sept 2020 - May 2022)"
-            description="HL Physics, HL History of Europe, HL French Literature,
-                 SL Mathematics AA, SL Chemistry, SL English Literature"
-          />
-        </span>
+        
       </div>
       <hr></hr>
     </section>

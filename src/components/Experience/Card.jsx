@@ -1,6 +1,7 @@
 import "./Card.css";
 import { StarIcon } from "@heroicons/react/24/solid";
 
+// `description` can be a string (one paragraph) or an array of strings (bullets).
 function Card({ job, location, description }) {
   return (
     <div className="card">
@@ -13,7 +14,15 @@ function Card({ job, location, description }) {
         <h3 className="location" id="loc">
           {location}
         </h3>
-        <h3 id="exp-descri">{description}</h3>
+        {Array.isArray(description) ? (
+          <ul className="exp-bullets">
+            {description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <h3 id="exp-descri">{description}</h3>
+        )}
       </div>
     </div>
   );

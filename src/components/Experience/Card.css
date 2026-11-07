@@ -45,6 +45,23 @@
     margin-top: -0.5rem;
 }
 
+/* Bullet version of #exp-descri: same font, weight and color */
+.exp-bullets {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+
+.exp-bullets li {
+  margin-bottom: 0.4rem;
+}
+
+.exp-bullets li::marker {
+  color: var(--pink);
+}
+
 @media only screen and (max-width: 600px) {
   .card {
     margin-left: 4rem;
@@ -54,6 +71,10 @@
   .job {
     margin-left: 0rem;
   }
+
+  .exp-bullets {
+    padding-left: 1rem;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
@@ -61,7 +82,8 @@
     font-size: 2.5rem;
   }
 
-  .job > h3 {
+  .job > h3,
+  .exp-bullets {
     font-size: 2rem;
   }
 
